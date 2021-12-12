@@ -1,0 +1,28 @@
+A301/Monitor/MSI/Optix G27C5/144hz, curved, gaming/5550000
+A302/Monitor/MSI/MSI Optix MAG27CX/144hz, curved, gaming/6000000
+A303/Monitor/Asus/TUF Gaming VG34VQL1B/165hz, curved, 34inch, Gaming/16059000
+A304/Monitor/Asus/Asus VP279QGL/75hz, 27inch, Gaming, IPS/5395000
+A305/MOnitor/Acer/Acer XZ272S/165hz, 27inch, Gaming, Full HD/7669000
+A306/Monitor/Dell/Dell U2422H/60hz, 23.8inch, IPS, Full HD/6969000
+A307/MOnitor/MSI/Optix AG32CV/165hz, 31.5inch,curved, Gaming/8060000
+A308/Monitor/Acer/Acer Nitro VG270/75hz, 27inch, IPS/5090000
+RK71/Keyboard/Royal Klugde/Ban phim gaming/60%, blue switch/800000
+RK72/Keyboard/Leopold/FC900R/Ban phim co, full size, brown switch/3539000
+K100/Keyboard/Corsair/912A014/Ban phim co, full size, Cherry MX, RGB/5299000
+D202/Keyboard/DareU/EK1280s/Ban phim co, full size, blue switch, Pink White/859000
+D302/Keyboard/DareU/EK368W/Ban phim co, Layout 68, Wireless, Switch Kailhbox/1638000
+G502/Mouse/Logitech/Logitech G502/Gaming, Wireless, RGB/3289000
+G304/Mouse/Corsair/IRONCLAW RGB/Gaming, RBG/1789000
+G111/Mouse/Edra/EM624/Switch Huano, White, RGB/379000
+G630/Mouse/Razer/Basilisk X Ultimate/Wireless 2.4Ghz, RGB, ABS, Black/4079000
+G706/Mouse/Fuhlen/A09B Optical/Wireless,Black/149000
+H300/Laptop/Acer/Predator Helios 300/i7-11800H, Ram 16GB, SSD 512GB, Nvidia RTX3060 6G, 15.6 inch QHD 165Hz, RGB, win10/39290000
+L300/Laptop/Lenovo/Legion 7 16ACHG6/AMD R9 5900HX, Ram 32GB, SSD 1TB, Nvidia RTX3080 16G, 16 inch QWXGA 165hz, win10/79499000
+H400/Laptop/Asus/VivoBook M3500QC/AMD R5 5600H, Ram 8GB, SSD 512GB, NVIDIA RTX 3050 MaxQ 4GB, 15.6 Oled FHD, win10/25999000
+H500/Laptop/Asus/Gaming ROG Strix G513IC/AMD R7 4800H, Ram 8GB, SSD 512GB, NVIDIA RTX 3050 4GB, 15.6 inch FHD, RGB, win10/2699900
+V5I3/Laptop/Dell/Vostro 15 3500/Intel Core i3 1115G4, Ram 8GB, SSD 256GB, Onboard, 15.6 inch FHD, win10/15599000
+MS31/Laptop/MSI/Gaming Bravo 15/AMD Ryzen 5 4600H, Ram 8GB, SSD 256GB, Radeon RX5300 3GB, 15.6 inch FHD 144hz, win10/18679000
+V50t/CasePC/Lenovo/11ED002UVA/i5-10400, Ram 4GB, SSD 256GB, Integrated Intel UHD Graphics 630, no OS/10909000
+42OT/CasePC/Dell/42OT380001/15-10500, Ram 4GB, HDD 1TB, Onboard, Fedora/12999000
+TP01/CasePC/HP/Pavilion TP01-2000d/i7-11700f, Ram 8GB, HDD 1TB, GTX 1650 Super, Window 10/22999000
+M230/CasePC/Acer/Aspire M230UX/i5-8400, Ram 4GB, HDD 1TB, GPU UHD Graphics 630, Endless/11990000
