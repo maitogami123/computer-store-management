@@ -91,10 +91,10 @@ public class AdminList implements FileControl {
                     System.out.println("Quay ve");
                     return;
                 case 1:
-                    addSeller();
+                    addAdminManager();
                     break;
                 case 2:
-                    addAdminManager();
+                    addSeller();
                     break;
                 default:
                     System.out.println("Du lieu nhap vao khong hop le hoac tinh nang dang phat trien!");
@@ -170,11 +170,11 @@ public class AdminList implements FileControl {
                     System.out.println("Quay ve");
                     return;
                 case 1:
-                    printList(sellerList);
-                    deleteSeller();
-                    break;
-                case 2:
                     printList(adminManagerList);
+                    deleteSeller();
+                break;
+                case 2:
+                    printList(sellerList);
                     deleteAdminManager();
                     break;
                 default:
