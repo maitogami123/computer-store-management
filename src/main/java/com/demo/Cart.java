@@ -123,7 +123,7 @@ public class Cart {
         System.out.println("*   2. Them san pham vao gio hang                              *");
         System.out.println("*   3. Xoa san pham khoi gio hang                              *");
         System.out.println("*   4. Xem thong tin gio hang                                  *");
-        System.out.println("*   5. Check out*                                              *");
+        System.out.println("*   5. Check out                                               *");
         System.out.println("*                                                              *");
         System.out.println("****************************************************************");
     }

@@ -34,8 +34,7 @@ public class ProductList implements FileControl {
             while (reader.hasNextLine()) {
                 String temp = reader.nextLine();
                 String[] arrOfStr = temp.split("/");
-                productList[index] = new Product(arrOfStr[0], arrOfStr[1], arrOfStr[2], arrOfStr[3], arrOfStr[4],
-                        Long.parseLong(arrOfStr[5]));
+                productList[index] = new Product(arrOfStr[0], arrOfStr[1], arrOfStr[2], arrOfStr[3], arrOfStr[4], Long.parseLong(arrOfStr[5]));
                 index++;
             }
             reader.close();
@@ -145,6 +144,7 @@ public class ProductList implements FileControl {
                         productList[i].getPrice());
                 System.out.println();
                 System.out.println("Chi tiet san pham: " + productList[i].getDescription() + "\n");
+                break;
             }
     }
 
