@@ -23,6 +23,10 @@ public class Seller extends Employee{
         return bonus + salaryPerDay * workingDay;
     }
 
+    public String toString() {
+        return ("seller/" + super.toString());
+    }
+
     void printMenu() {
         System.out.println("****************************************************************");
         System.out.println("*                                                              *");

@@ -11,6 +11,10 @@ public class AdminManager extends Employee {
 
     }
 
+    public String toString() {
+        return ("admin/" + getAdminName() + "/" + getPassword());
+    }
+
     @Override
     long salary() {
         System.out.print("Nhap so ngay lam: ");

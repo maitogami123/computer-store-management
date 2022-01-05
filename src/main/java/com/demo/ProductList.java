@@ -155,10 +155,10 @@ public class ProductList implements FileControl {
         System.out.println("*   1. Hien menu                                               *");
         System.out.println("*   2. Xem mat hang                                            *");
         System.out.println("*   3. Tim kiem san pham                                       *");
-        System.out.println("*   4. Them san pham vao gio hang                              *");
+        System.out.println("*   4. Xem thong tin chi tiet                                  *");
         System.out.println("*   5. Quan li don hang                                        *");
         System.out.println("*   6. Xem thong tin khuyen mai                                *");
-        System.out.println("*   7. Xem thong tin chi tiet                                  *");
+        System.out.println("*   7. Them san pham vao gio hang                              *");
         System.out.println("*                                                              *");
         System.out.println("****************************************************************");
     }
@@ -184,9 +184,9 @@ public class ProductList implements FileControl {
                     filterSort.init(productList);
                     break mainLoop;
                 case 4:
-                    Cart newCart = new Cart();
-                    newCart.initUser(productList);
-                    printUserMenu();
+                    System.out.print("Nhap id san pham muon xem chi tiet: ");
+                    String subInput = (sc.nextLine());
+                    printListDetails(subInput, productList);
                     break;
                 case 5:
                     Orders userOrder = new Orders();
@@ -197,9 +197,9 @@ public class ProductList implements FileControl {
                     promoList.displayPromos();
                     break;
                 case 7:
-                    System.out.print("Nhap id san pham muon xem chi tiet: ");
-                    String subInput = (sc.nextLine());
-                    printListDetails(subInput, productList);
+                    Cart newCart = new Cart();
+                    newCart.initUser(productList);
+                    printUserMenu();
                     break;
                 default:
                     System.out.println("Du lieu nhap vao khong hop le hoac tinh nang dang phat trien!");

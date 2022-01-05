@@ -34,7 +34,7 @@ public class MainMenu {
                     break mainLoop;
                 case 2:
                     Authenticate au = new Authenticate();
-                    au.init();
+                    au.verify();
                     break mainLoop;
                 default:
                     System.out.println("Du lieu nhap vao khong hop le hoac tinh nang dang phat trien!");

@@ -25,4 +25,4 @@ MS31/Laptop/MSI/Gaming Bravo 15/AMD Ryzen 5 4600H, Ram 8GB, SSD 256GB, Radeon RX
 V50t/CasePC/Lenovo/11ED002UVA/i5-10400, Ram 4GB, SSD 256GB, Integrated Intel UHD Graphics 630, no OS/10909000
 42OT/CasePC/Dell/42OT380001/15-10500, Ram 4GB, HDD 1TB, Onboard, Fedora/12999000
 TP01/CasePC/HP/Pavilion TP01-2000d/i7-11700f, Ram 8GB, HDD 1TB, GTX 1650 Super, Window 10/22999000
-M230/CasePC/Acer/Aspire M230UX/i5-8400, Ram 4GB, HDD 1TB, GPU UHD Graphics 630, Endless/11990000
+M230/CasePC/Acer/Aspire M230UX/i5-8400, Ram 4GB, HDD 1TB, GPU UHD Graphics 630, Endless/100000000

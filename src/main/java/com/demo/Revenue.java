@@ -5,14 +5,14 @@ import java.util.Scanner;
 
 public class Revenue {
     static long revenue = 0;
+    Revenue(long checkout) {
+        revenue += checkout;
+    }
 
     Revenue() {
 
     }
 
-    Revenue(long checkout) {
-        revenue += checkout;
-    }
 
     void readFile() {
         try {

@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public abstract class Employee {
     private String password, adminName;
+    AdminList al = new AdminList();
     Scanner sc = new Scanner(System.in);
     Employee(String password, String adminName) {
         this.password = password;
@@ -24,8 +25,16 @@ public abstract class Employee {
     }
 
     void setAdminName() {
-        System.out.print("Nhap ten admin: ");
-        adminName = sc.nextLine();
+        String userInput;
+        do {
+            System.out.print("Nhap ten admin: ");
+            userInput = sc.nextLine();
+            if (al.usernameAvailable(userInput)) {
+                adminName = userInput;
+            } else {
+                System.out.println("Tai khoan da ton tai!");
+            }
+        } while(!al.usernameAvailable(userInput));
     }
 
     void setPassword() {
@@ -34,8 +43,7 @@ public abstract class Employee {
     }
 
     void setInfo() {
-        System.out.print("Nhap ten admin: ");
-        adminName = sc.nextLine();
+        setAdminName();
         System.out.print("Nhap mat khau: ");
         password = sc.nextLine();
     }
